@@ -10,7 +10,7 @@ main{
 }
 
 /* GRIGLIA PER QUADRATI */
-.grid{
+#grid{
     margin: 0 auto;
     width: 700px;
     height: 700px;
