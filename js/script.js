@@ -11,6 +11,7 @@ play.addEventListener('click', function(){
     // genero la griglia in base alla difficoltà
     let difficulty = document.getElementById('difficulty').value;
     let grid = document.getElementById('grid');
+    grid.innerHTML = ''
     let rBtnN = document.getElementById('reset-btn')
     grid.classList.add('d-block');   
     rBtnN.classList.add('d-flex');
