@@ -33,8 +33,6 @@ play.addEventListener('click', function(){
             resetButton.addEventListener('click', function(){
                 newSquare.classList.remove('square-click');
                 console.log('Gioco Ricominciato')
-                let container = document.getElementById('container')
-                container.innerHTML = ""
             })
         }
     } else if(difficulty == 'medium'){
@@ -54,8 +52,6 @@ play.addEventListener('click', function(){
             resetButton.addEventListener('click', function(){
                 newSquare.classList.remove('square-click');
                 console.log('Gioco Ricominciato')
-                let container = document.getElementById('container')
-                container.innerHTML = ""
             })
         }
     } else {
@@ -74,8 +70,6 @@ play.addEventListener('click', function(){
             resetButton.addEventListener('click', function(){
                 newSquare.classList.remove('square-click');
                 console.log('Gioco Ricominciato')
-                let container = document.getElementById('container');
-                container.innerHTML = ''
             })
         }
     }
